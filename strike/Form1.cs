@@ -136,7 +136,7 @@ namespace strike
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            string githubUrl = "https://github.com/hypecrazed/titanium";
+            string githubUrl = "https://github.com/hypecrazed/strike-yt-dlp_ui";
 
             Process.Start(new ProcessStartInfo(githubUrl) { UseShellExecute = true });
         }
